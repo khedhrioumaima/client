@@ -14,7 +14,8 @@ import Order from "./pages/order/Order";
 import Verify from "./pages/Verify";
 
 
-export const backendUrl= "http://localhost:4000"
+//export const backendUrl= "http://localhost:4000"
+export const backendUrl= "https://server-khvh.onrender.com"
 
 function App() {
 
