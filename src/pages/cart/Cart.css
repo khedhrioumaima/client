@@ -1,0 +1,123 @@
+.cart-content-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #e0dcdc;
+  border-radius: 16px;
+  padding: 20px;
+  background-color: #fff9f5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.cart-item:hover {
+  transform: scale(1.01);
+}
+
+.cart-itm-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.product-card-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+.product-cart-details {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cart-product-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.product-benefits-price {
+  display: flex;
+  gap: 15px;
+  font-size: 16px;
+  color: #777;
+}
+
+.benefits {
+  font-style: italic;
+  color: #999;
+}
+
+.input-quantity {
+  width: 60px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.delete-icon {
+  font-size: 24px;
+  color: #d9534f;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: color 0.2s ease;
+}
+
+.delete-icon:hover {
+  color: #a94442;
+}
+
+.checkout-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.check-box {
+  max-width: 500px;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.checkout-button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-button {
+  background-color: #007e67;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #005e4c;
+}
+
+

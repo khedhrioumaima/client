@@ -1,0 +1,27 @@
+.hero-bottom{
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+width: 100%;
+padding: 20px;
+border-radius: 10px;
+}
+
+.hero-content{
+    display: flex;
+    gap: 15px;
+}
+
+.info-icon .hero-icon{
+    font-size: 44px;
+    color:red;
+}
+
+.hero-content .detail h3{
+    font-size: 22px;
+}
+
+.hero-content .detail p{
+    color: #555;
+    font-size: 18px;
+}

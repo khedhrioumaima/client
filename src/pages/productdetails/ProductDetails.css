@@ -1,0 +1,118 @@
+.product-container{
+    padding-top: 10px;
+    opacity: 1;
+}
+.product-content{
+    display: flex;
+    gap: 40px;
+}
+.product-images{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    max-width: 50%;
+}
+.thumbanail-container{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+.thumbbbo{
+    width: 24px;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+.main-image-container{
+    width: 100%;
+}
+.main-iamge{
+    width: 100%;
+    height: auto;
+}
+.product-info{
+    flex: 1;
+    max-width: 50%;
+}
+
+.product-info .product-name{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.product-price{
+    margin-top: 20px;
+    font-size: 1.875rem;
+    font-weight: 500;
+}
+.product-decription{
+    margin-top: 20px;
+    color: gray;
+}
+.benefits-selector{
+    margin: 30px 0;
+}
+.benefits-boutons{
+    display: flex;
+    gap: 5px;
+}
+.benefits-button{
+    border: 1px solid;
+    padding: 10px 15px;
+    background-color: #f3f3f3;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.benefits-button.active-benefits{
+    border-color: red;
+}
+.product-divider{
+    margin-top: 30px;
+}
+.product-policy{
+    margin-top: 20px;
+    color: gray;
+    font-size: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.add-to-cart-btn{
+    background: bisque;
+    color: aqua;
+    padding: 15px 50px;
+    font-size: 0.875rem ;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.desciption-review-section{
+    margin-top: 50px;
+}
+.tabs{
+    display: flex;
+}
+.tab{
+    border: 1px solid  #ccc;
+    padding: 10px 15px;
+    font-size: 0.875rem ;
+    color: #333; /* Couleur de texte standard */
+    background-color: #f9f9f9; /* Fond clair */
+    border-radius: 5px; /* Coins arrondis pour une apparence plus douce */
+    transition: background-color 0.3s, color 0.3s;
+}
+.description-content{
+    font-size: 16px; 
+    line-height: 1.6; /* Espacement des lignes */
+    color: #333; /* Couleur du texte */
+    margin-top: 20px; /* Marge au-dessus */
+    margin-bottom: 20px; /* Marge en-dessous */
+    padding: 15px; /* Padding pour ajouter de l'espace à l'intérieur de la section */
+    background-color: #f9f9f9; /* Couleur de fond clair */
+    border-radius: 8px; /* Bordures arrondies */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
