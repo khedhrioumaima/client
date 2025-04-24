@@ -5,7 +5,7 @@ import { Navigation, Pagination, Scrollbar, A11y, EffectFlip } from 'swiper/modu
 
 import 'swiper/swiper-bundle.css';
 import  p1  from "../../assets/p1.jpg";
-import  p2  from "../../assets/p2.webp";
+import  p2  from "../../assets/P2.webp";
 import  p3  from "../../assets/p3.webp";
 import  p4  from "../../assets/p4.webp";
 import 'swiper/css/navigation';
